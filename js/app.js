@@ -16,7 +16,8 @@ var randomDay=Math.floor((Math.random() * 30) + 1);
 
 
   function insertBackgroundImage(object) {
-    $('.welcome_text').css('background-image', 'url(' + object.hdurl + ')');
+    $('.title_text').css('background-image', 'url(' + object.hdurl + ')');
+    $('.load_more').css('background-image', 'url(' + object.hdurl + ')');
 
   }
 
